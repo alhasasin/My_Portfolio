@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact Me | Abdulhameed Abdullahi</title>
+<meta name="description" content="Get in touch with Abdulhameed Abdullahi, Computer Engineering student." />
+<link rel="stylesheet" href="assets/css/style.css" />
+
+<!-- JSON-LD structured data: Schema.org/ContactPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Contact Abdulhameed Abdullahi",
+  "url": "https://alhasasin.github.io/contact.html",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Abdulhameed Abdullahi",
+    "email": "alhasasin@gmail.com",
+    "telephone": "+2349039189707",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zaria",
+      "addressRegion": "Kaduna State",
+      "addressCountry": "NG"
+    }
+  }
+}
+</script>
+</head>
+<body>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">AA<span>.</span></a>
+
+    <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-intro">
+    <p class="eyebrow">Contact Me</p>
+    <h1>Let's connect</h1>
+    <p class="lede">
+      Reach out directly by email or phone, or use the form below — it posts
+      with a standard HTML form submission, no JavaScript involved.
+    </p>
+  </section>
+
+  <section class="contact-grid">
+    <div class="contact-details">
+      <article class="contact-item">
+        <p class="contact-ic" aria-hidden="true">📧</p>
+        <div><h2>Email</h2><p><a href="mailto:alhasasin@gmail.com">alhasasin@gmail.com</a></p></div>
+      </article>
+      <article class="contact-item">
+        <p class="contact-ic" aria-hidden="true">📱</p>
+        <div><h2>Phone</h2><p><a href="tel:+2349039189707">+234 903 918 9707</a></p></div>
+      </article>
+      <article class="contact-item">
+        <p class="contact-ic" aria-hidden="true">📍</p>
+        <div><h2>Location</h2><p>Zaria, Kaduna State, Nigeria</p></div>
+      </article>
+      <article class="contact-item">
+        <p class="contact-ic" aria-hidden="true">🕐</p>
+        <div><h2>Availability</h2><p>Mon – Sat: 9am – 6pm (GMT+1)</p></div>
+      </article>
+    </div>
+
+    <div class="card">
+      <h2>Send a Message</h2>
+      <!--
+        No-JS form submission via mailto: action. The browser's default
+        mail client opens with a pre-filled message using the visitor's
+        own name/email/message field values. Requires method="GET" since
+        mailto: does not support POST bodies; field values become a
+        mailto query string (subject + body).
+      -->
+      <form action="mailto:alhasasin@gmail.com" method="GET" enctype="text/plain">
+        <div class="form-field">
+          <label for="cname">Your Name</label>
+          <input type="text" id="cname" name="name" required />
+        </div>
+        <div class="form-field">
+          <label for="cemail">Your Email</label>
+          <input type="email" id="cemail" name="email" required />
+        </div>
+        <div class="form-field">
+          <label for="cmsg">Message</label>
+          <textarea id="cmsg" name="body" rows="4" required placeholder="Your message..."></textarea>
+        </div>
+        <input type="hidden" name="subject" value="Portfolio Contact Form Submission" />
+        <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+      </form>
+      <p class="form-note">
+        Submitting opens your default email app with this message pre-filled,
+        ready to send to alhasasin@gmail.com. Prefer to write directly?
+        <a href="mailto:alhasasin@gmail.com">Click here</a> instead.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-about">
+      <p class="logo">AA<span>.</span></p>
+      <p>Future Computer Engineer passionate about building intelligent, data-driven,
+         and human-centered technology.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <ul>
+        <li>alhasasin@gmail.com</li>
+        <li>+234 903 918 9707</li>
+        <li>Zaria, Kaduna State, Nigeria</li>
+      </ul>
+    </div>
+  </div>
+  <p class="footer-bottom">&copy; 2026 Abdulhameed Abdullahi. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

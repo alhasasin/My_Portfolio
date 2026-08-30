@@ -1,0 +1,142 @@
+{
+  "person": {
+    "id": "person-001",
+    "name": "Abdulhameed Abdullahi",
+    "title": "Computer Engineering Student",
+    "location": "Zaria, Kaduna State, Nigeria",
+    "email": "alhasasin@gmail.com",
+    "phone": "+2349039189707",
+    "availability": "Mon - Sat: 9am - 6pm (GMT+1)",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/abdulhameed-abdulahi-4a764414a/",
+      "twitter": "https://x.com/AA_Hameed_",
+      "github": "https://github.com/alhasasin"
+    }
+  },
+
+  "education": [
+    {
+      "id": "edu-001",
+      "title": "B.Eng. Computer Engineering",
+      "institution": "Undergraduate Programme",
+      "date_start": "2023",
+      "date_end": "present",
+      "category": "degree",
+      "description": "Undergraduate studies covering digital systems, programming, electronics, and computer architecture, with a growing focus on software and AI applications."
+    },
+    {
+      "id": "edu-002",
+      "title": "Secondary School Education",
+      "institution": "Secondary School",
+      "date_start": "2016",
+      "date_end": "2022",
+      "category": "secondary",
+      "description": "Completed secondary education with a strong foundation in Mathematics, Physics, and Further Mathematics."
+    },
+    {
+      "id": "edu-003",
+      "title": "Self-Directed Learning",
+      "institution": "Various online platforms",
+      "date_start": "2023",
+      "date_end": "ongoing",
+      "category": "self-study",
+      "description": "Continuous coursework and certifications in Python, Machine Learning, Web Development, and Business Intelligence tools."
+    }
+  ],
+
+  "certifications": [
+    { "id": "cert-001", "name": "Python Programming", "status": "completed" },
+    { "id": "cert-002", "name": "Machine Learning Fundamentals", "status": "ongoing" },
+    { "id": "cert-003", "name": "Power BI for Data Analysis", "status": "completed" },
+    { "id": "cert-004", "name": "Business Intelligence Essentials", "status": "completed" }
+  ],
+
+  "skills": {
+    "programming_and_web": [
+      { "id": "skill-001", "name": "Python" },
+      { "id": "skill-002", "name": "JavaScript" },
+      { "id": "skill-003", "name": "HTML5" },
+      { "id": "skill-004", "name": "CSS3" },
+      { "id": "skill-005", "name": "SQL" }
+    ],
+    "data_and_bi": [
+      { "id": "skill-006", "name": "Excel / VBA" },
+      { "id": "skill-007", "name": "Pandas" },
+      { "id": "skill-008", "name": "NumPy" },
+      { "id": "skill-009", "name": "Power BI" }
+    ],
+    "ml_and_foundations": [
+      { "id": "skill-010", "name": "Machine Learning Basics" },
+      { "id": "skill-011", "name": "Digital Systems" },
+      { "id": "skill-012", "name": "Git & GitHub" },
+      { "id": "skill-013", "name": "PostgreSQL" },
+      { "id": "skill-014", "name": "Flask" }
+    ]
+  },
+
+  "projects": [
+    {
+      "id": "proj-001",
+      "title": "Student Performance Dashboard",
+      "date": "2025-03",
+      "category": "Data Analysis",
+      "description": "Interactive dashboard using Power BI and Python to visualize student performance metrics, attendance, and academic trends.",
+      "image_url": "assets/images/student-performance-dashboard.jpg",
+      "url": "https://student-pridect-system.onrender.com/"
+    },
+    {
+      "id": "proj-002",
+      "title": "Cino Bakery and Confessionary",
+      "date": "2025-01",
+      "category": "Web Application",
+      "description": "Custom web application for managing bakery operations and confessionary services, built with Python and Flask.",
+      "image_url": "assets/images/cino-bakery.jpg",
+      "url": "https://cino-bakery-confessionary.onrender.com/"
+    },
+    {
+      "id": "proj-003",
+      "title": "Student Placement System",
+      "date": "2024-11",
+      "category": "Web Platform",
+      "description": "Web-based platform for managing student placements, using Python, Flask, and a PostgreSQL database.",
+      "image_url": "assets/images/student-placement-system.jpg",
+      "url": "https://student-placement-system.onrender.com/"
+    },
+    {
+      "id": "proj-004",
+      "title": "Excel Inventory Management",
+      "date": "2024-08",
+      "category": "Automation",
+      "description": "Automated stock management system using VBA macros and an interactive UserForm popup for fast, button-driven inventory processes.",
+      "image_url": "assets/images/excel-inventory.jpg",
+      "url": null
+    },
+    {
+      "id": "proj-005",
+      "title": "Cino Bakery Chatbot (FAQ)",
+      "date": "2024-06",
+      "category": "AI / Chatbot",
+      "description": "AI-powered chatbot designed to handle customer inquiries and provide instant support for Cino Bakery, built with Python and Flask.",
+      "image_url": "assets/images/cino-bakery-chatbot.jpg",
+      "url": "https://cino-bakery-chatbot.onrender.com/"
+    },
+    {
+      "id": "proj-006",
+      "title": "Employee Analytics Dashboard",
+      "date": "2024-04",
+      "category": "Business Intelligence",
+      "description": "Power BI dashboard providing interactive insights into HR employee management, tracking performance, efficiency, and regional analytics.",
+      "image_url": "assets/images/employee-analytics-dashboard.jpg",
+      "url": null
+    }
+  ],
+
+  "hobbies": [
+    { "id": "hobby-001", "title": "Coding & Tinkering", "description": "Building small tools and experimenting with new frameworks in free time." },
+    { "id": "hobby-002", "title": "AI & Robotics", "description": "Exploring machine learning concepts and how intelligent systems are designed." },
+    { "id": "hobby-003", "title": "Reading", "description": "Tech blogs, engineering articles, and books on innovation and design thinking." },
+    { "id": "hobby-004", "title": "Gaming", "description": "Strategy and puzzle games that sharpen logical thinking and problem-solving." },
+    { "id": "hobby-005", "title": "Photography", "description": "Capturing everyday moments and experimenting with visual storytelling." },
+    { "id": "hobby-006", "title": "Mentoring", "description": "Helping peers get started with programming and technology basics." }
+  ]
+}
